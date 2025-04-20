@@ -1,14 +1,50 @@
 :root{
-    --color: FFF085;
-    --seccolor:FCB454;
-    --bgcolor: 1A1A1A;
-    --textcolor: FFFFFF;
-    --textcolor2: 000000;
-    --tercolor: FF9B17;
-    --miscolor: F16767;
+    --color: #FFF085;
+    --seccolor:#FCB454;
+    --bgcolor: #1A1A1A;
+    --textcolor: #f54e0c;
+    --textcolor2: #ca0e0e;
+    --tercolor: #FF9B17;
+    --miscolor: #F16767;
 }
 * {
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+.header{
+    position: relative;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--color);
+    border: 2px solid var(--color);
+}
+.header h1{
+    font-family: 'Kalam', cursive, sans-serif;
+    font-size: 4.5rem;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px;
+    color: var(--textcolor);
+    text-shadow: 0 0 10px #f54e0c9c, 0 0 20px #f54e0c9c, 0 0 #f54e0c9c;
+    display: inline;
+}
+
+.header h1:hover{
+    color: var(--textcolor2);
+    text-shadow: 0 0 10px #ca0e0e9c, 0 0 20px #ca0e0e9c, 0 0 #ca0e0e9c;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.header h3{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align:left;
+    padding: 0px 20px 0px 20px;
+    color: var(--textcolor2);
+    position: inherit;
+    bottom: 17px;
+}
