@@ -1,0 +1,14 @@
+:root{
+    --color: FFF085;
+    --seccolor:FCB454;
+    --bgcolor: 1A1A1A;
+    --textcolor: FFFFFF;
+    --textcolor2: 000000;
+    --tercolor: FF9B17;
+    --miscolor: F16767;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
