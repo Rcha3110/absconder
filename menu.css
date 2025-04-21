@@ -48,3 +48,28 @@
     position: inherit;
     bottom: 17px;
 }
+.nav{
+    position: absolute;
+    right:20px;
+    top:50px;
+    
+
+}
+.nav button{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: var(--seccolor);
+    color: var(--textcolor2);
+    padding: 0px 20px 0px 20px;
+    border: 2px solid var(--seccolor);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav button:hover{
+    background-color: var(--textcolor2);
+    color: var(--seccolor);
+    border: 2px solid var(--textcolor2);
+    transition: all 0.3s ease-in-out;
+}
