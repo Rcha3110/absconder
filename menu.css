@@ -1,10 +1,9 @@
 :root{
     --color: #FFF085;
     --seccolor:#FCB454;
-    --bgcolor: #1A1A1A;
     --textcolor: #f54e0c;
     --textcolor2: #ca0e0e;
-    --tercolor: #FF9B17;
+    --tercolor: #FF9B17; 
     --miscolor: #F16767;
 }
 * {
@@ -15,7 +14,7 @@
 .header{
     position: relative;
     margin: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #FFF085;
     background-color: var(--color);
     border: 2px solid var(--color);
 }
@@ -72,4 +71,14 @@
     color: var(--seccolor);
     border: 2px solid var(--textcolor2);
     transition: all 0.3s ease-in-out;
+}
+.firstsection{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: var(--seccolor);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
