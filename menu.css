@@ -79,6 +79,34 @@
     background-color: var(--seccolor);
     height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.firstsection button{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: var(--textcolor2);
+    color: var(--seccolor);
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.firstsection button:hover{
+    background-color: var(--textcolor);
+    color: var(--seccolor);
+    border: 2px solid var(--textcolor);
+    transition: all 0.3s ease-in-out;
+}
+.firstsection p{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--textcolor2);
+    padding: 0px 20px 0px 20px;
+    text-align: center;
 }
