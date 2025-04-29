@@ -1,6 +1,6 @@
 :root {
-    --color: #FFF085;
-    --seccolor: #FCB454;
+    --color: #3b2dbb;
+    --seccolor: #54ccfc;
     --textcolor: #f54e0c;
     --textcolor2: #ca0e0e;
     --tercolor: #FF9B17;
@@ -55,8 +55,6 @@
     position: absolute;
     right: 20px;
     top: 50px;
-
-
 }
 
 .nav button {
@@ -127,4 +125,63 @@
     padding: 0px 20px 0px 20px;
     margin: 4px;
     text-align: center;
+}
+.secondsection{
+    position: relative;
+    height:30vh;
+    display: flex;
+    background-color: var(--color);
+    justify-content: space-around;
+    align-items: center;
+}
+.secondsection button{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: var(--seccolor);
+    color: var(--textcolor2);
+    padding: 0px 20px 0px 20px;
+    border: 2px solid var(--seccolor);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.secondsection button:hover{
+    background-color: var(--textcolor2);
+    color: var(--seccolor);
+    border: 2px solid var(--textcolor2);
+    transition: all 0.3s ease-in-out;
+}
+.thirdsection{
+    background-color: var(--seccolor);
+    height: 60vh;
+    position: relative;
+}
+.thirdsection h2{
+    font-family: 'Kalam', cursive, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px;
+    color: var(--textcolor2);
+}
+.thirdsection dl{
+    text-align: center;
+    color: var(--textcolor);
+    margin: -20px;
+}
+.thirdsection dt{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--textcolor2);
+}
+.thirdsection dd{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--textcolor);
 }
